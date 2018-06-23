@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Quiz and Assesssment Creator</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="page-header">Course: Microeconomics<small> C312</small></h1>
+      <p>Have some instructions here - something about processs or about direct instructions. Process meaning process of collaboration and how to create a proposal, maybe impact of proposal. Who Academic programs are and why they should use it and so on so forth. </p>
+
+    </div>
+
+    <hr>
+
+    <!-- BUTTONS -->
+  <div class="container">
+  <div class="row">
+    <div class="col-md-3">
+      <p>HELLO DARKNESS MY OLD FRIEND</p>
+    </div>
+
+    <div class="col-md-6">    
+
+      <div class="container">
+
+        <!-- BUTTON SIZES -->
+        <button class="btn btn-default btn-primary btn-lg">Create New Question</button>
+        <button class="btn btn-default">Select From Question Bank</button>
+
+      </div>
+
+
+      <div class="container">
+        <br>
+         <!-- INLINE FORM -->
+          <form class="form-inline">
+            <div class="form-group">
+              <label>Course Competency </label>
+              <select class="form-control">
+                <option value="c1">Competency C1</option>
+                <option value="c2">Competency C2</option>
+                <option value="c3">Competency C3</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>  Learning Objective </label>
+              <select class="form-control">
+                <option value="o1">Learning Obj1</option>
+                <option value="o2">Learning Obj1</option>
+                <option value="o3">Learning Obj1</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label>  Topic</label>
+              <input type="text" class="form-control" placeholder="input specific topic">
+
+            <div class="form-group">
+              <label>  Question Type </label>
+              <select class="form-control">
+                <option value="qType1">Multiple Choice</option>
+                <option value="qType2">Short Answer</option>
+                <option value="qType3">Match </option>
+              </select>
+            </div>
+         </form>
+       </div>
+
+      <div class="container">
+        <br>
+         <!-- QUIZ FORM -->
+          <form>
+            <div class="form-group">
+              <label>Question Description</label>
+              <textarea class="form-control" rows="5" placeholder="write question here"></textarea>
+            </div>
+            <div class="checkbox">
+              <label>
+               <input type="checkbox"> My question does not exist in the question bank
+              </label>
+            </div>
+          <div class="form-check">
+              <input class="form-check-input" name="group100" type="radio" id="radio100">
+              <label class="form-check-label" for="radio100"  style="width: 70%" > 
+                <input style="width: 100%" type="text" placeholder="write option description" />
+              </label>
+          </div>
+
+          <div class="form-check">
+              <input class="form-check-input" name="group100" type="radio" id="radio101" checked>
+              <label class="form-check-label" for="radio101" style="width: 70%" > 
+                <input style="width: 100%" type="text" placeholder=" " />
+              </label>
+          </div>
+
+          <div class="form-check">
+              <input class="form-check-input" name="group100" type="radio" id="radio102">
+              <label class="form-check-label" for="radio102" style="width: 70%" > 
+                <input style="width: 100%" type="text" placeholder=" " />
+              </label>
+          </div>
+
+         </form>
+        </div>
+
+  </div>
+
+    <div class="col-md-12">
+      <p>HELLO DARKNESS MY OLD FRIEND</p>
+    </div>         
+
+      <div class="container">
+        <br>
+         <!-- INLINE FORM -->
+          <form class="form-inline">
+            <div class="form-group">
+              <button type="addQuestionBank" class="btn btn-default">Add to Question Bank</button>
+              <button type="moreQuestion" class="btn btn-default">Create another question</button>
+              <button type="sendQuiz" class="btn btn-default">Send to Quiz Tab</button>
+            </div>
+         </form>
+       </div>
+
+    
+    </div>
+    </div>
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
