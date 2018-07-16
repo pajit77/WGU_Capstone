@@ -1,3 +1,5 @@
+
+
 AFM and AFM+S in Python
 =======================
 
@@ -25,6 +27,14 @@ student step files in datashop format; e.g.,
 
 For a slightly more detailed example of how to use these scripts see my 
 [blog post](http://christopia.net/blog/modeling-student-learning-in-python).
+
+What sort of data is needed to run this?
+=======================
+Step Trans 6 is a tab delimited file that shows the type of fields needed to run it.
+
+How to run this?
+=======================
+python .\process_datashop.py .\StepTranv6.txt -m AFM -nfolds 3
 
 Citing this Software 
 ====================
